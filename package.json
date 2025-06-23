@@ -1,0 +1,26 @@
+{
+  "name": "project29",
+  "version": "1.0.0",
+  "description": "A Node.js script to monitor clipboard and update Google Docs in append or replace mode",
+  "main": "script.js",
+  "type": "module",
+  "scripts": {
+    "dev:a": "nodemon script.js a",
+    "dev:r": "nodemon script.js r"
+  },
+  "keywords": [
+    "google-docs",
+    "clipboard",
+    "automation",
+    "node.js"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "clipboardy": "^4.0.0",
+    "googleapis": "^144.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
